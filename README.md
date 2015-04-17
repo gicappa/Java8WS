@@ -17,6 +17,17 @@ anche nell'OOP la Classe Cat dovrebbe mantenere uno stato. Forse nel caso OO occ
  
 # Pattern Funzionali
 
+Guardare le API per vedere quali sono i nuovi metodi a disposizione ed imparare da questi. 
+
 ## Loan Pattern
+## Conditional Deferred Execution
+    invece di passare un messaggio generato da qualche cosa di pesante 
+    compuzionalmente passo una funzione che viene lanciata solo se necessario
+    attenzione che comunque esiste l'allocazione dell'oggetto funzione cpome costo
+    quando passo i parametri 
     
-    
+# Monadi:
+- validation
+- transaction
+- stream 
+- optional
