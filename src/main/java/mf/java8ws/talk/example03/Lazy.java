@@ -15,7 +15,7 @@ public class Lazy {
                         .filter(n -> n % 2 == 0)
                         .map(n -> n * 2)
                         .filter(n -> n > 5)
-                        .findFirst().get()
+                        .findFirst().orElse(0)
         );
 
     }
