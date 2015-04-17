@@ -10,7 +10,13 @@ public class Lazy {
         // Take only the even numbers, double them and print
         // the first one bigger than 5
 
-        System.out.println(numbers.stream().filter(n -> n % 2 ==0).map(n-> n*2).filter(n -> n>5 ).findFirst());
+        System.out.println(
+                numbers.stream()
+                        .filter(n -> n % 2 == 0)
+                        .map(n -> n * 2)
+                        .filter(n -> n > 5)
+                        .findFirst()
+        );
 
     }
 }
