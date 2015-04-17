@@ -31,3 +31,8 @@ Guardare le API per vedere quali sono i nuovi metodi a disposizione ed imparare 
 - transaction
 - stream 
 - optional
+
+# CompletableFuture 
+Vengono reati come negli streams tanti thread quanti sono i processori (come forkjoin). 
+Ma attenzione che posso passargli un executor al completablefuture con più thread di 
+quanti ne ho nel processore. 
